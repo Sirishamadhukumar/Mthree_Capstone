@@ -1,0 +1,71 @@
+{
+  "n": 5,
+  "metrics": {
+    "context_precision": 0.5947916666666666,
+    "context_recall": 0.875,
+    "faithfulness": 0.575,
+    "answer_relevance": 0.2881043178814431,
+    "tool_call_accuracy": 0.5
+  },
+  "latency_ms": {
+    "p50": 0.906686999996964,
+    "p95": 1.0031479999952353
+  },
+  "tokens": {
+    "in": 38,
+    "out": 308
+  },
+  "sim_cost_usd": 0.000692,
+  "per_sample": [
+    {
+      "id": "q1",
+      "latency_ms": 0.4778180000357679,
+      "tokens_in": 7,
+      "tokens_out": 18,
+      "context_precision": 0.7,
+      "context_recall": 1.0,
+      "faithfulness": 0.25,
+      "answer_relevance": 0.2807449625374385
+    },
+    {
+      "id": "q2",
+      "latency_ms": 0.4047369999966577,
+      "tokens_in": 6,
+      "tokens_out": 8,
+      "context_precision": 0.6791666666666667,
+      "context_recall": 1.0,
+      "faithfulness": 0.0,
+      "answer_relevance": 0.16012815380508716
+    },
+    {
+      "id": "q3",
+      "latency_ms": 0.906686999996964,
+      "tokens_in": 12,
+      "tokens_out": 93,
+      "context_precision": 0.5,
+      "context_recall": 0.5,
+      "faithfulness": 0.875,
+      "answer_relevance": 0.31716197120135853
+    },
+    {
+      "id": "q4",
+      "latency_ms": 1.0031479999952353,
+      "tokens_in": 6,
+      "tokens_out": 96,
+      "context_precision": 0.5,
+      "context_recall": 1.0,
+      "faithfulness": 0.875,
+      "answer_relevance": 0.3515752411854286
+    },
+    {
+      "id": "q5",
+      "latency_ms": 0.9370260000309827,
+      "tokens_in": 7,
+      "tokens_out": 93,
+      "context_precision": null,
+      "context_recall": null,
+      "faithfulness": 0.875,
+      "answer_relevance": 0.3309112606779027
+    }
+  ]
+}

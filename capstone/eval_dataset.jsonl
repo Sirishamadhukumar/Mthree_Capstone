@@ -1,0 +1,5 @@
+{"id": "q1", "question": "How much is an international wire fee?", "gold_docs": ["FEES-001"], "expected_tool_calls": [{"name": "calculate_fee", "args": {}}]}
+{"id": "q2", "question": "What is the status of ACC-1001?", "gold_docs": ["ACCT-001"], "expected_tool_calls": [{"name": "lookup_account_status", "args": {"account_id": "ACC-1001"}}]}
+{"id": "q3", "question": "Who must approve a $30,000 wire initiated at the Harbor Street branch?", "gold_docs": ["ORG-001", "RISK-001"]}
+{"id": "q4", "question": "What are the branch opening hours?", "gold_docs": ["ORG-001"]}
+{"id": "q5", "question": "Who is the CEO of Meridian Bank?", "gold_docs": []}

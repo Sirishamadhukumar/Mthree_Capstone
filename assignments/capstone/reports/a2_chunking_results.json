@@ -1,0 +1,35 @@
+[
+  {
+    "strategy": "fixed",
+    "recall_at_5": 1.0,
+    "top5": [
+      "ACCT-001",
+      "ACCT-002",
+      "ACCT-001",
+      "FEES-001",
+      "ACCT-002"
+    ]
+  },
+  {
+    "strategy": "section",
+    "recall_at_5": 1.0,
+    "top5": [
+      "ACCT-001",
+      "ACCT-002",
+      "ACCT-001",
+      "FEES-001",
+      "FEES-001"
+    ]
+  },
+  {
+    "strategy": "semantic",
+    "recall_at_5": 1.0,
+    "top5": [
+      "ACCT-001",
+      "ACCT-001",
+      "ACCT-002",
+      "ACCT-001",
+      "FEES-001"
+    ]
+  }
+]
